@@ -1,0 +1,38 @@
+#header {
+	background-color: black;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	
+}
+
+
+
+label {
+	font-size: 18px;
+}
+
+#movie {
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#horrorMovieSearch {
+	margin: 0 auto;
+	text-align: center;
+	
+}
+
+#gifArea {
+	clear: both;
+	display: inline;
+	flex-wrap: wrap;
+}
+
+.horrorMovieGiphy {
+	padding: 2px;
+	width: 80%;
+}

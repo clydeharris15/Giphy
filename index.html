@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Horror Movie Giphy</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+
+<body id="wholeThing">
+
+  <div class="jumbotron" id="header">
+    <h1>Horror Fans Rejoice!</h1>
+    <h4>Click to display GIPHYs of your favorite Horror Movies
+      <br> Pause and play by clicking!
+      <br>Add more buttons by searching</h4>
+  </div>
+
+  <form class="form-inline" id="horrorMovieSearch">
+    <div class="form-group">
+      <label for="horrorMovieInput">Search for a Horror Movie</label>
+      <input type="text" id="horrorMovieInput">
+    </div>
+
+    <input id="addMovie" type="submit" value="submit">
+  </form>
+
+  <div class="row">
+    <div class="container">
+      <div class="btn-group inline pull-left">
+        <button class="btn btn-primary" id="movie" data-search="The Grudge">The Grudge</button>
+        <button class="btn btn-primary" id="movie" data-search="The Conjuring 2">The Conjuring 2</button>
+        <button class="btn btn-primary" id="movie" data-search="Insidious">Insidious</button>
+        <button class="btn btn-primary" id="movie" data-search="Hereditary">Hereditary</button>
+
+        <div id="myButtons"></div>
+      </div>
+     </div>
+   </div>
+
+
+
+  <div class="row">
+    <div class="container">
+      <span>
+        <div id="gifArea"></div>
+      </span>
+    </div>
+ 
+  </div>
+
+
+  <script type="text/javascript" src="app.js" ></script>
+  
+
+</body>
+
+</html>
